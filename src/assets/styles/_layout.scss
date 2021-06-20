@@ -11,7 +11,7 @@
   }
   
   .wrap__title h1 {
-    color: #fff;
+    color: #000;
     font-size: 10vmax;
     line-height: 0.85;
     letter-spacing: -0.0275em;
@@ -41,8 +41,8 @@
     transform: translateY(110%);
   }
   
-  .light .wrap__title h1 {
-    color: #000;
+  #light.wrap__title h1 {
+    color: #fff;
   }
   
   /* 모든 페이지의 헤더
