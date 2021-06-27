@@ -62,7 +62,7 @@ function Script() {
       <Layout>
         <section id="scriptCont">
           <div className="container">
-            <WrapTitle text={["Script", "reference"]} />
+            <WrapTitle text={["Script", "Reference"]} />
 
             <div className="script__cont">
               {scriptInfo.map((text) => (

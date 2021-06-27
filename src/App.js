@@ -1,15 +1,15 @@
-import React from 'react';
-import Main from './components/pages/Main';
-import About from './components/pages/About';
-import Reference from './components/pages/Reference';
-import ReferDetail from './components/pages/ReferDetail';
-import Script from './components/pages/Script';
-import Youtube from './components/pages/Youtube';
-import Contact from './components/pages/Contact';
-import Portfolio from './components/pages/Portfolio';
-import {BrowserRouter as Router, Route } from 'react-router-dom';
+import React from "react";
+import Main from "./components/pages/Main";
+import About from "./components/pages/About";
+import Reference from "./components/pages/Reference";
+import ReferDetail from "./components/pages/ReferDetail";
+import Script from "./components/pages/Script";
+import Youtube from "./components/pages/Youtube";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App(){
+function App() {
   return (
     <Router>
       <Route path="/" exact component={Main} />
@@ -21,7 +21,7 @@ function App(){
       <Route path="/contact" exact component={Contact} />
       <Route path="/portfolio" exact component={Portfolio} />
     </Router>
-  )
+  );
 }
 
 export default App;

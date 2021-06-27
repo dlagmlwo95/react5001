@@ -12,41 +12,42 @@ function Header({ info }) {
           <Link to="/">webstoryboy</Link>
         </div>
         <div className="header__inner__menu">
-          <Link to="#">
+          <div className="header__nav demo">
+            <ul>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/reference">Reference</Link>
+              </li>
+              <li>
+                <Link to="/youtube">Youtube</Link>
+              </li>
+              <li>
+                <Link to="/script">Script</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <Link to="/">회원가입</Link>
+              </li>
+              <li>
+                <Link to="/">로그인</Link>
+              </li>
+              <li>
+                <Link to="/">게시판</Link>
+              </li>
+            </ul>
+          </div>
+          <Link to="#" className="rang">
             <span className="sr-only">menu</span>
           </Link>
         </div>
       </div>
-      <div className="header__nav demo">
-        <ul>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/reference">Reference</Link>
-          </li>
-          <li>
-            <Link to="/youtube">Youtube</Link>
-          </li>
-          <li>
-            <Link to="/script">Script</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <Link to="/">회원가입</Link>
-          </li>
-          <li>
-            <Link to="/">로그인</Link>
-          </li>
-          <li>
-            <Link to="/">게시판</Link>
-          </li>
-        </ul>
-      </div>
+
       <div className="header__info" id={info}>
         <div>
           <h4>email</h4>
